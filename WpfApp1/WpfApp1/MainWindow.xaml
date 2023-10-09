@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="450" Width="550">
+    <Grid Name ="grid1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Name="button1" Content="button1" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" FontSize="23"/>
+        <Button Name="button2" Content="button2" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" FontSize="23"/>
+        <Button Name="button3" Content="button3" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" FontSize="23"/>
+        <Button Name="button4" Content="button4" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" FontSize="23"/>
+        <Button Name="button5" Content="button5" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" FontSize="23"/>
+        <Button Name="button6" Content="button6" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Stretch" FontSize="23"/>
+        <Button Name="button7" Content="button7" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Stretch" FontSize="23"/>
+        <Button Name="button8" Content="button8" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Stretch" FontSize="23"/>
+        <Button Name="button9" Content="button9" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Stretch" FontSize="23"/>
+
     </Grid>
 </Window>

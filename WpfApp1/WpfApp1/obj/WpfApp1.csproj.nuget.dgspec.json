@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project VS\\C#\\WPF practices\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
+    "E:\\Project VS\\C#\\WPF practices\\WPF-practices\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
   },
   "projects": {
-    "E:\\Project VS\\C#\\WPF practices\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
+    "E:\\Project VS\\C#\\WPF practices\\WPF-practices\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project VS\\C#\\WPF practices\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectUniqueName": "E:\\Project VS\\C#\\WPF practices\\WPF-practices\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
         "projectName": "WpfApp1",
-        "projectPath": "E:\\Project VS\\C#\\WPF practices\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectPath": "E:\\Project VS\\C#\\WPF practices\\WPF-practices\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
         "packagesPath": "C:\\Users\\vitya\\.nuget\\packages\\",
-        "outputPath": "E:\\Project VS\\C#\\WPF practices\\WpfApp1\\WpfApp1\\obj\\",
+        "outputPath": "E:\\Project VS\\C#\\WPF practices\\WPF-practices\\WpfApp1\\WpfApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Visual Studio\\Shared\\NuGetPackages"
