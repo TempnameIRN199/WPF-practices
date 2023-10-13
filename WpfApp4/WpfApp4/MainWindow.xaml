@@ -33,7 +33,7 @@
                 <MenuItem Header="12" IsCheckable="True" Checked="MenuItemPenSize_Click"/>
                 <MenuItem Header="13" IsCheckable="True" Checked="MenuItemPenSize_Click"/>
                 <MenuItem Header="14" IsCheckable="True" Checked="MenuItemPenSize_Click"/>
-                <MenuItem Header="15" IsCheckable="True" Checked="MenuItemPenSize_Click"/>
+                <MenuItem Header="30" IsCheckable="True" Checked="MenuItemPenSize_Click"/>
             </MenuItem>
             <MenuItem Header="Прозорість тексту">
                 <MenuItem Header="10%" IsCheckable="True" Checked="MenuItemTransparency_Click"/>

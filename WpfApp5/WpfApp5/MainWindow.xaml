@@ -5,8 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Paint" Height="450" Width="800">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu Name="mainMenu" Grid.Row="0">
+            <MenuItem Header="Режими">
+                <MenuItem Name="DrawModeMenuItem" Header="Малювання"  Click="MenuItem_Checked"/>
+                <MenuItem Name="EditModeMenuItem" Header="Редагування" Click="MenuItem_Checked"/>
+                <MenuItem Name="DeleteModeMenuItem" Header="Видалення" Click="MenuItem_Checked"/>
+            </MenuItem>
+            <MenuItem Header="Колір пензля">
+                <MenuItem Header="Червоний" Click="MenuItemColor_Click"/>
+                <MenuItem Header="Зелений" Click="MenuItemColor_Click"/>
+                <MenuItem Header="Синій" Click="MenuItemColor_Click"/>
+                <MenuItem Header="Помаранчевий" Click="MenuItemColor_Click"/>
+                <MenuItem Header="Фіолетовий" Click="MenuItemColor_Click"/>
+                <MenuItem Header="Рожевий" Click="MenuItemColor_Click"/>
+                <MenuItem Header="Бірюзовий" Click="MenuItemColor_Click"/>
+                <MenuItem Header="Чорний" Click="MenuItemColor_Click"/>
+            </MenuItem>
+            <MenuItem Header="Розмір карандаша">
+                <MenuItem Header="Normal" Click="MenuItemPenSize_Click"/>
+                <MenuItem Header="5" Click="MenuItemPenSize_Click"/>
+                <MenuItem Header="6" Click="MenuItemPenSize_Click"/>
+                <MenuItem Header="7" Click="MenuItemPenSize_Click"/>
+                <MenuItem Header="8" Click="MenuItemPenSize_Click"/>
+                <MenuItem Header="9" Click="MenuItemPenSize_Click"/>
+                <MenuItem Header="10" Click="MenuItemPenSize_Click"/>
+                <MenuItem Header="11" Click="MenuItemPenSize_Click"/>
+                <MenuItem Header="12" Click="MenuItemPenSize_Click"/>
+                <MenuItem Header="13" Click="MenuItemPenSize_Click"/>
+                <MenuItem Header="14" Click="MenuItemPenSize_Click"/>
+                <MenuItem Header="15" Click="MenuItemPenSize_Click"/>
+            </MenuItem>
+            <MenuItem Header="Фігури">
+                <MenuItem Name="LineMenuItem" Header="Лінія" IsCheckable="True" Click="MenuItemShape_Click"/>
+                <MenuItem Name="CircleMenuItem" Header="Коло" IsCheckable="True" Click="MenuItemShape_Click"/>
+                <MenuItem Name="RectangleMenuItem" Header="Прямокутник" IsCheckable="True" Click="MenuItemShape_Click"/>
+            </MenuItem>
+        </Menu>
+        <InkCanvas Name="inkCanvas" Grid.Row="1" Background="White" MouseLeftButtonDown="InkCanvas_MouseLeftButtonDown"/>
     </Grid>
 </Window>
