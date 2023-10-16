@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "z7a8h9TaUo8l2rahI93xiWWfKSwoEpLppZ4MYzr7HrXOsuhVJqM7hMwhU59DxE2WlqFhTrPX9skY4koOfFt6Eg==",
+  "success": true,
+  "projectFilePath": "E:\\Project VS\\C#\\WPF practices\\WPF-practices\\WpfApp12\\WpfApp12\\WpfApp12.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vitya\\.nuget\\packages\\controlzex\\6.0.0\\controlzex.6.0.0.nupkg.sha512",
+    "C:\\Users\\vitya\\.nuget\\packages\\fluent.ribbon\\10.0.4\\fluent.ribbon.10.0.4.nupkg.sha512",
+    "C:\\Users\\vitya\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\vitya\\.nuget\\packages\\ribboncontrolslibrary\\4.0.0\\ribboncontrolslibrary.4.0.0.nupkg.sha512",
+    "C:\\Users\\vitya\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"RibbonControlsLibrary 4.0.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "RibbonControlsLibrary",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
