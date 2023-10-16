@@ -43,7 +43,7 @@ namespace WpfApp10
                 firstNum = Convert.ToDouble(txtbox1.Text);
                 Button button = (Button)sender;
                 operation = button.Content.ToString();
-                txtbox1.Text += operation;  // добавляем символ операции в txtbox1
+                txtbox1.Text += operation;
             }
         }
 
@@ -70,7 +70,6 @@ namespace WpfApp10
                 double secondNum;
                 if (operation != null)
                 {
-                    // извлекаем второе число из txtbox1, пропустив первое число и операцию
                     secondNum = Convert.ToDouble(txtbox1.Text.Substring(firstNum.ToString().Length + 1));
                 }
                 else
@@ -113,7 +112,6 @@ namespace WpfApp10
         {
             if (!txtbox1.Text.Contains(","))
             {
-                // Если textbox1 пуст, начнем с "0,"
                 if (string.IsNullOrEmpty(txtbox1.Text))
                 {
                     txtbox1.Text = "0,";
