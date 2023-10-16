@@ -1,0 +1,15 @@
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\WpfApp10.csproj.AssemblyReference.cache
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\MainWindow.g.cs
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\App.g.cs
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\WpfApp10_MarkupCompile.cache
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\WpfApp10_MarkupCompile.lref
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\bin\Debug\WpfApp10.exe.config
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\bin\Debug\WpfApp10.exe
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\bin\Debug\WpfApp10.pdb
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\MainWindow.baml
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\WpfApp10.g.resources
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\WpfApp10.Properties.Resources.resources
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\WpfApp10.csproj.GenerateResource.cache
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\WpfApp10.csproj.CoreCompileInputs.cache
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\WpfApp10.exe
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp10\WpfApp10\obj\Debug\WpfApp10.pdb

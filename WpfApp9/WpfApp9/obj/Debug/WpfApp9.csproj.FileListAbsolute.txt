@@ -1,0 +1,16 @@
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\WpfApp9.csproj.AssemblyReference.cache
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\App.g.cs
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\WpfApp9_MarkupCompile.cache
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\bin\Debug\WpfApp9.exe.config
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\bin\Debug\WpfApp9.exe
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\bin\Debug\WpfApp9.pdb
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\MainWindow.g.cs
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\WpfApp9_MarkupCompile.lref
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\MainWindow.baml
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\WpfApp9.g.resources
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\WpfApp9.Properties.Resources.resources
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\WpfApp9.csproj.GenerateResource.cache
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\WpfApp9.csproj.CoreCompileInputs.cache
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\WpfApp9.exe
+E:\Project VS\C#\WPF practices\WPF-practices\WpfApp9\WpfApp9\obj\Debug\WpfApp9.pdb

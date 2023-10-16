@@ -1,0 +1,93 @@
+<Window x:Class="WpfApp8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp8"
+        xmlns:WpfApp8="clr-namespace:WpfApp8"
+        mc:Ignorable="d"
+        Title="List of Tasks" Height="450" Width="800">
+    <!--<Window.Resources>
+
+        <CollectionViewSource x:Key="kumaViewSource" Source="{Binding YourDataCollection}">
+            <CollectionViewSource.GroupDescriptions>
+                <PropertyGroupDescription PropertyName="Type" />
+            </CollectionViewSource.GroupDescriptions>
+        </CollectionViewSource>
+        <DataTemplate DataType="{x:Type WpfApp8:kuma}">
+            <Border Name="brd" BorderBrush="Aqua" BorderThickness="1" CornerRadius="2"
+        Padding="5" Margin="5">
+                <TextBlock FontSize="14" FontWeight="Bold" Text="{Binding Name}"/>
+            </Border>
+        </DataTemplate>
+    </Window.Resources>-->
+
+
+    <Window.Resources>
+        <CollectionViewSource x:Key="kumaCollectionViewSource" Source="{Binding YourDataCollection}">
+            <CollectionViewSource.GroupDescriptions>
+                <PropertyGroupDescription PropertyName="GroupName" />
+            </CollectionViewSource.GroupDescriptions>
+        </CollectionViewSource>
+
+        <!-- Определение DataTemplate для элементов ListBox -->
+        <DataTemplate DataType="{x:Type WpfApp8:kuma}">
+            <Border Name="brd" BorderBrush="Aqua" BorderThickness="1" CornerRadius="2" Padding="5" Margin="5">
+                <TextBlock FontSize="14" FontWeight="Bold" Text="{Binding Name}" />
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+
+
+    <!--<StackPanel Margin="5" Orientation="Horizontal">
+        <ListBox Name="IstTasks" HorizontalAlignment="Stretch" Width="250">
+            <ListBox.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Path = Type}"
+                               FontSize="14" FontWeight="Bold"
+                               Foreground="White" Background="Green"
+                               Margin="0,5,0,0" Padding="3"/>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListBox.GroupStyle>
+        </ListBox>-->
+
+    <StackPanel Margin="5" Orientation="Horizontal">
+        <ListBox Name="IstTasks" ItemsSource="{Binding Source={StaticResource kumaCollectionViewSource}}" HorizontalAlignment="Stretch" Width="250">
+            <ListBox.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <StackPanel Background="Green" Margin="0,5,0,0">
+                                <TextBlock FontSize="14" FontWeight="Bold" Foreground="White" Text="{Binding Name}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListBox.GroupStyle>
+        </ListBox>
+        <Grid Margin="5" DataContext="{Binding ElementName=IstTasks, Path=SelectedItem}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="7"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="11"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="11"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Name:"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="{Binding Name}"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Note:"/>
+            <TextBlock Grid.Row="2" Grid.Column="2" Text="{Binding Note}"/>
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="Priority:"/>
+            <TextBlock Grid.Row="4" Grid.Column="2" Text="{Binding Priority}"/>
+        </Grid>
+    </StackPanel>
+</Window>
