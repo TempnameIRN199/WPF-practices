@@ -121,17 +121,6 @@ namespace WpfApp12
             }
         }
 
-
-        //private void FontFamili_SelectionChange(object sender, SelectionChangedEventArgs e)
-        //{
-        //    try
-        //    {
-        //        FontFamily editValue = (FontFamily)e.AddedItems[0];
-        //        ApplyPropertyValueToSelectedText(TextElement.FontFamilyProperty, editValue);
-        //    }
-        //    catch (Exception) { }
-        //}
-
         private void FontSize_SelectionChange(object sender, SelectionChangedEventArgs e)
         {
             try
